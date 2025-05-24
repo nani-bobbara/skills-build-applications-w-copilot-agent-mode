@@ -45,5 +45,5 @@ urlpatterns = [
     path('admin/', admin.site.urls),
     path('api/', include(router.urls)),
     path('api-root/', api_root, name='api-root'),
-    path('docs/', include_docs_urls(title='OctoFit API')),
+    # path('docs/', include_docs_urls(title='OctoFit API')),
 ]
